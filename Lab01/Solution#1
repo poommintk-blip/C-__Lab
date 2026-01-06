@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float thb;
+
+    cin >> thb;
+
+    cout << thb * 0.0301 << " USD" << endl;
+    cout << thb * 3.3713 << " JPY" << endl;
+    cout << thb * 0.0256 << " EUR" << endl;
+    cout << thb * 0.0224 << " GBP" << endl;
+    cout << thb * 0.1998 << " CNY" << endl;
+
+    return 0;
+}
