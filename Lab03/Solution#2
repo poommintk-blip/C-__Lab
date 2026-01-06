@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float height;
+    
+    cin >> height;
+    
+if (height < 150.0) {
+    cout << "Dwarf" << endl;
+    
+} else if (height < 165.0) {
+    cout << "Standard Height" << endl;
+    
+} else if (height < 190.0) {
+    cout << "Taller" << endl;
+    
+} else {
+    cout << "Abnormal Height" << endl;
+    
+}
+    
+    return 0;
+}

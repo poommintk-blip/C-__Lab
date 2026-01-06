@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+    
+int main() {
+    double cash, total, change;
+    int b500, b100, b1;
+    
+    
+    cin >> cash >> total;
+    
+    //if (cash <= 0 || cash >= 100000 || total >= 100000)
+    
+    //if (cash < total)
+    
+    change = cash - total;
+    
+    b500 = change / 500;
+    change = (int)change % 500;
+    
+    b100 = change / 100;
+    change = (int)change % 100;
+    
+    b1 = change;
+    
+    if (b500 > 0)
+    cout << "500 " << b500 << endl;
+    if (b100 > 0)
+    cout << "100 " << b100 << endl;
+    if (b1 > 0)
+    cout << "1 " << b1 << endl;
+    
+    return 0;
+}
